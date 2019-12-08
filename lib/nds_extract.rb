@@ -11,7 +11,7 @@ def directors_totals(source)
   end
   result
 end
-
+#totaling all movies per director
 def gross_for_director(d)
   total = 0
   index = 0
