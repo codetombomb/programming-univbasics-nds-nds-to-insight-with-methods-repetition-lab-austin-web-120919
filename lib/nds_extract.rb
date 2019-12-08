@@ -45,6 +45,7 @@ def total_gross(source)
 
 directors_totals(source).each do |var|
   if var[0] == list_of_directors(source[0])
+  end
     binding.pry
   end
 
