@@ -23,7 +23,7 @@ def gross_for_director(d)
 
   total
 end
-
+binding.pry
 def list_of_directors(source)
   # Write this implementation
 end
