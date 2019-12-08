@@ -44,8 +44,8 @@ def total_gross(source)
 # use list_of_directors to find the key in director totals.
   directors_totals(source).each do |var|
     if var[0] == list_of_directors(source[0])
+      binding.pry
     end
-    binding.pry
   end
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
