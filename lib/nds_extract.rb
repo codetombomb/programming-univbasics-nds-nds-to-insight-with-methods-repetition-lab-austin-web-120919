@@ -48,7 +48,7 @@ def total_gross(source)
         total += directors_totals(source)[var]
     end
 
-      binding.pry
+      # binding.pry
 
   end
   # Visit each key (i.e. director name), look up the value in the hash
