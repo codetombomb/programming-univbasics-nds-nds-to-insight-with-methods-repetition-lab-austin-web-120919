@@ -46,7 +46,7 @@ count = 0
 directors_totals(source).each do |var|
   if var[count] == list_of_directors(source[])
   end
-  count += 1 
+  count += 1
   binding.pry
 end
 
