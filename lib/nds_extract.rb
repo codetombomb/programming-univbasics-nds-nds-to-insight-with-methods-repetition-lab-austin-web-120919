@@ -46,6 +46,7 @@ def total_gross(source)
     var.each do
       if var == directors_totals(source)
         total += directors_totals(source)[var]
+      end
     end
 
       # binding.pry
