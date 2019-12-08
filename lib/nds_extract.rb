@@ -31,7 +31,7 @@ def list_of_directors(source)
   while director_list < source.size do
     list << directors_database[director_list][:name]
     director_list += 1
-    binding.pry
+    # binding.pry
   end
 end
 
