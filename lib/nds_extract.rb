@@ -33,6 +33,7 @@ def list_of_directors(source)
     director_list += 1
     # binding.pry
   end
+  list
 end
 
 def total_gross(source)
