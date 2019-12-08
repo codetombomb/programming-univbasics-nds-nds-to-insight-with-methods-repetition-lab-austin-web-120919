@@ -1,6 +1,6 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
-
+#retuns an array of :name =>, gross_for_director
 def directors_totals(source)
   result = {}
   director_index = 0
