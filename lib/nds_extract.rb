@@ -28,7 +28,7 @@ def list_of_directors(source)
   # Write this implementation
   list = []
   director_list = 0
-  while director list < source.size do
+  while director_list < source.size do
     binding.pry
     director_list += 1
   end
