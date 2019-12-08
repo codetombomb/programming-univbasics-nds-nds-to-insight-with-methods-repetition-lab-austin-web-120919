@@ -44,10 +44,11 @@ def total_gross(source)
 # use list_of_directors to find the key in director totals.
 
 directors_totals(source).each do |var|
-  if var[0] == list_of_directors(source[])
+  if var[0] == list_of_directors(source[0])
+    pry
   end
 
-  binding.pry
+
 end
 
 
