@@ -42,11 +42,11 @@ def total_gross(source)
   # 1. directors_totals: returns a Hash of { dir_name => gross }
   # 2. list_of_directors: names provides an Array of directors names (use
 # use list_of_directors to find the key in director totals.
-count = 0
+
 directors_totals(source).each do |var|
   if var[count] == list_of_directors(source[])
   end
-  count += 1
+
   binding.pry
 end
 
