@@ -23,7 +23,7 @@ def gross_for_director(d)
 
   total
 end
-# returns an array of directors ["speilgerg", "Julio", etc...]
+# returns an array of directors ["Shpeilberg", "Julio", etc...]
 def list_of_directors(source)
   # Write this implementation
   list = []
