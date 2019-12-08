@@ -45,7 +45,7 @@ def total_gross(source)
   list_of_directors(source).each do |var|
     var.each do
       if var == directors_totals(source)
-        total += directors_totals(source)
+        total += directors_totals
     end
 
       binding.pry
