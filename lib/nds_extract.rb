@@ -29,7 +29,7 @@ def list_of_directors(source)
   list = []
   director_list = 0
   while director_list < source.size do
-    list << directors_database[director_list][:name]
+    list << source[director_list][:name]
     director_list += 1
     # binding.pry
   end
