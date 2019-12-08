@@ -47,7 +47,7 @@ def total_gross(source)
       if var == directors_totals(source)[var]
         total += directors_totals(source)[var]
       end
-    end
+    
 
       # binding.pry
 
