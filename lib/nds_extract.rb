@@ -43,6 +43,9 @@ def total_gross(source)
   # 2. list_of_directors: names provides an Array of directors names (use
 # use list_of_directors to find the key in director totals.
   list_of_directors(source).each do |var|
+    var.each do 
+      if var == directors_totals(source)
+    end
     
       binding.pry
 
