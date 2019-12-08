@@ -45,7 +45,7 @@ def total_gross(source)
   list_of_directors(source).each do |var|
     # var.each do
       total += directors_totals(source)[var]
-      end
+      
 
 
       binding.pry
